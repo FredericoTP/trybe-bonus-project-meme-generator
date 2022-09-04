@@ -12,11 +12,15 @@
     <h1>Meme Generator</h1>
     <section>
       <input id="text-input" type="text">
+      <input id="meme-insert" type="file" accept="image/*">
     </section>
   </header>
   <main>
     <section id="meme-image-container">
-      <p id="meme-text"></p>
+      <div id="meme-image">
+        <img id="image-preview" src="" alt="Sua foto">
+        <p id="meme-text"></p>
+      </div>
     </section>
   </main>
   <script src="script.js"></script>
