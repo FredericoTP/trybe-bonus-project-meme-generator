@@ -13,13 +13,13 @@ body {
   background-color: white;
 }
 
-#meme-image {
+#meme-preview {
   width: 100%;
   height: 100%;
   position: relative;
 }
 
-#image-preview {
+#meme-image {
   width: 450px;
   height: 300px;
   object-fit: cover;
@@ -52,4 +52,27 @@ body {
   color: white;
   font-size: 15px;
   font-weight: bolder;
+}
+
+#meme-1, #meme-2, #meme-3, #meme-4 {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin: 20px;
+}
+
+#meme-1 {
+  border: 3px dashed rgb(255, 0, 0);
+}
+
+#meme-2 {
+  border: 5px double rgb(0, 0, 255);
+}
+
+#meme-3 {
+  border: 6px groove rgb(0, 128, 0);
+}
+
+#meme-4 {
+  border: 3px dashed rgb(255, 0, 0);
 }
