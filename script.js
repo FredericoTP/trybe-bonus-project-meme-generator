@@ -18,7 +18,7 @@ function showTextInPreview(event) {
 inputText.addEventListener('keyup', showTextInPreview);
 
 function showPreview(event) {
-  if(event.target.files.length > 0) {
+  if (event.target.files.length > 0) {
     const src = URL.createObjectURL(event.target.files[0]);
     memeImage.src = src;
   }

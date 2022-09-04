@@ -3,7 +3,35 @@
 }
 
 body {
-  
+  background-color: gray;
+}
+
+#header {
+  text-align: center;
+  color: white;
+  background-color: black;
+  width: 40%;
+  margin: 10px auto;
+  border: 5px solid black;
+  border-radius: 10px;
+}
+
+#title {
+  color: white;
+  padding: 20px;
+  background-color: black;
+  width: 40%;
+  margin: auto;
+  border: 5px solid black;
+  border-radius: 10px;
+}
+
+#inputs {
+  padding: 0 0 10px;
+}
+
+#text-input {
+  margin: 10px;
 }
 
 #meme-image-container {
@@ -11,6 +39,21 @@ body {
   height: 300px;
   border: 1px solid black;
   background-color: white;
+  margin: 20px auto;
+}
+
+#buttons {
+  text-align: center;
+  margin: 5px auto;
+  color: white;
+  background-color: black;
+  width: 30%;
+  border: 5px solid black;
+  border-radius: 10px;
+}
+
+#miniature {
+  text-align: center;
 }
 
 #meme-preview {
@@ -31,30 +74,31 @@ body {
   position: absolute;
   font-size: 30px;
   text-shadow: 5px 5px 5px black;
+  font-weight: 600;
 }
 
 #fire {
-  background-color: rgb(255, 0, 0);
+  background-color: red;
   color: white;
   font-size: 15px;
-  font-weight: bolder;
+  font-weight: 900;
 }
 
 #water {
-  background-color: rgb(0, 0, 255);
+  background-color: blue;
   color: white;
   font-size: 15px;
-  font-weight: bolder;
+  font-weight: 900;
 }
 
 #earth {
-  background-color: rgb(0, 128, 0);
+  background-color: green;
   color: white;
   font-size: 15px;
-  font-weight: bolder;
+  font-weight: 900;
 }
 
-#meme-1, #meme-2, #meme-3, #meme-4 {
+#meme-1 , #meme-2 , #meme-3 , #meme-4 {
   width: 200px;
   height: 200px;
   object-fit: cover;
@@ -62,17 +106,17 @@ body {
 }
 
 #meme-1 {
-  border: 3px dashed rgb(255, 0, 0);
+  border: 3px dashed red;
 }
 
 #meme-2 {
-  border: 5px double rgb(0, 0, 255);
+  border: 5px double blue;
 }
 
 #meme-3 {
-  border: 6px groove rgb(0, 128, 0);
+  border: 6px groove green;
 }
 
 #meme-4 {
-  border: 3px dashed rgb(255, 0, 0);
+  border: 3px dashed red;
 }
