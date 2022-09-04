@@ -20,7 +20,9 @@ body {
 }
 
 #image-preview {
-  width: 100%;
+  width: 450px;
+  height: 300px;
+  object-fit: cover;
   position: absolute;
 }
 
@@ -29,4 +31,25 @@ body {
   position: absolute;
   font-size: 30px;
   text-shadow: 5px 5px 5px black;
+}
+
+#fire {
+  background-color: rgb(255, 0, 0);
+  color: white;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+#water {
+  background-color: rgb(0, 0, 255);
+  color: white;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+#earth {
+  background-color: rgb(0, 128, 0);
+  color: white;
+  font-size: 15px;
+  font-weight: bolder;
 }
