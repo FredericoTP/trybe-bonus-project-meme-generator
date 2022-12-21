@@ -75,6 +75,9 @@ body {
   font-size: 30px;
   text-shadow: 5px 5px 5px black;
   font-weight: 600;
+  word-wrap: break-word;
+  max-width: 450px;
+  text-align: center;
 }
 
 #fire {
