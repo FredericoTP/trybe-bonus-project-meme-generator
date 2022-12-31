@@ -112,6 +112,8 @@ Nesse projeto foi desenvolvido uma aplicação utilizando HTML, CSS e JavaScript
 
 ## 100% :heavy_check_mark:
 
+![Project-Bonus-Meme-Generator-Grade](https://github.com/FredericoTP/trybe-bonus-project-meme-generator/blob/main/imgs/meme-generator-grade.png?raw=true)
+
 <br />
 
 ## 3- Preview
