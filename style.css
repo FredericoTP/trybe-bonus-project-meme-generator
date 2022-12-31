@@ -123,3 +123,51 @@ body {
 #meme-4 {
   border: 3px dashed red;
 }
+
+@media screen and ( max-width : 910px ) {
+  #header {
+    width: 60%;
+  }
+
+  #title {
+    color: white;
+    padding: 20px;
+    width: fit-content
+  }
+}
+
+@media screen and ( max-width : 480px ) {
+  #header {
+    width: 80%;
+  }
+
+  #meme-image-container {
+    width: 250px;
+    height: 250px;
+  }
+
+  #meme-image {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    position: absolute;
+  }
+
+  #meme-1 , #meme-2 , #meme-3 , #meme-4 {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+  }
+
+  #meme-insert {
+    width: 100%;
+  }
+
+  #buttons {
+    width: 60%;
+  }
+
+  #buttons button {
+    margin: 5px;
+  }
+}
