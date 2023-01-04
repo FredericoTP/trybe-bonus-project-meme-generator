@@ -1,10 +1,8 @@
-# :construction: README em construção ! :construction:
-
 # :computer: Trybe-Bonus-Project-Meme-Generator :computer:
 
 Nesse projeto foi desenvolvido uma aplicação utilizando HTML, CSS e JavaScript onde é possível fazer upload de imagens e escrever um texto para criar memes.
 
-# Acesse o projeto clicando [aqui]()! :green_heart:
+# Acesse o projeto clicando [aqui](https://fredericotp.github.io/trybe-bonus-project-meme-generator/)! :green_heart:
 
 <br />
 
@@ -117,3 +115,5 @@ Nesse projeto foi desenvolvido uma aplicação utilizando HTML, CSS e JavaScript
 <br />
 
 ## 3- Preview
+
+![Project-Bonus-Meme-Generator-Preview](https://github.com/FredericoTP/trybe-bonus-project-meme-generator/blob/main/imgs/meme-generator-preview.png?raw=true)
